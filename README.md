@@ -13,6 +13,11 @@ All backed up by a database
 
 The theme is about managing a persons content consumption, this means saving their books, series, movies, etc.
 
+# Build
+
+
+
+
 # Database
 
 This project uses mongoDB.

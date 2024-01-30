@@ -17,9 +17,7 @@ public class TestSpringDemoRsApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.from(SpringDemoRsApplication::main)
-		.with(TestSpringDemoRsApplication.class)
-		.run(args);
+		SpringApplication.from(SpringDemoRsApplication::main).with(TestSpringDemoRsApplication.class).run(args);
 	}
 
 }
